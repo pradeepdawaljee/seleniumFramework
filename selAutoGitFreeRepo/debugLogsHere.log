@@ -1,0 +1,33 @@
+2018-01-19 11:17:08 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
+2018-01-19 11:17:16 [INFO ] [BaseClass] - [openBrowser] Opening Url https://qaapp.moolya.global
+2018-01-19 11:17:16 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Forgot Password
+2018-01-19 11:17:17 [INFO ] [SmokeTest] - [forgotPasswordFunc] Forgot Password page Verified successfully @2018-01-19 11:17:17.64
+2018-01-19 11:17:17 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....pradeep.dawaljee@raksan.in into the text box field....Email
+2018-01-19 11:17:18 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
+2018-01-19 11:17:18 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-19 11:17:18 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-19 11:17:18 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-19 11:17:18 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-19 11:17:18 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
+2018-01-19 11:17:54 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....dfdsfdfd into the text box field....Email
+2018-01-19 11:17:54 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
+2018-01-19 11:17:55 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-19 11:17:55 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-19 11:17:55 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-19 11:17:55 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-19 11:17:55 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
+2018-01-19 11:18:31 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Login
+2018-01-19 11:18:32 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-01-19 11:18:33 [INFO ] [CommonMethods] - [sendKeys] Entering value.... into the textbox field....By.name: userName
+2018-01-19 11:18:33 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-01-19 11:18:34 [INFO ] [CommonMethods] - [sendKeys] Entering value....MoolyaAdmin@123 into the textbox field....By.name: Password
+2018-01-19 11:18:35 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-01-19 11:18:36 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-19 11:18:36 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-19 11:18:36 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
+2018-01-19 11:19:12 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-01-19 11:19:13 [INFO ] [CommonMethods] - [sendKeys] Entering value....platformadmin@moolya.global into the textbox field....By.name: userName
+2018-01-19 11:19:14 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-01-19 11:19:15 [INFO ] [CommonMethods] - [sendKeys] Entering value....MoolyaAdmin@123 into the textbox field....By.name: Password
+2018-01-19 11:19:15 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-01-19 11:19:17 [INFO ] [SmokeTest] - [loginFunc] Landing Page Verified successfully

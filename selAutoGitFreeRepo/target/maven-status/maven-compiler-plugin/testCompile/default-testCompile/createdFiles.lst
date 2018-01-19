@@ -1,0 +1,4 @@
+com\framework\Package\pageObjects\Login.class
+com\framework\Package\pageObjects\ForgotPassword.class
+com\framework\Package\pageObjects\LandingScreen.class
+com\framework\Package\tests\SmokeTest.class

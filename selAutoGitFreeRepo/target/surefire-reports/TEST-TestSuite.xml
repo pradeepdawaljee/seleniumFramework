@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="122.087" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="R:\SOFTWARE\JAVA\jre\bin"/>
+    <property name="java.vm.version" value="25.74-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="R:\LEARNING\Eclipse\Workspace_Proj\selAutoGitFreeRepo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="R:\LEARNING\Eclipse\Workspace_Proj\selAutoGitFreeRepo"/>
+    <property name="java.runtime.version" value="1.8.0_74-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="R:\SOFTWARE\JAVA\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Pradeep\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="R:\LEARNING\Eclipse\Workspace_Proj\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6454330013694798731.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="R:\SOFTWARE\JAVA\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;R:\SOFTWARE\JAVA\bin;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jre1.8.0_91\bin;C:\Users\Pradeep\AppData\Local\Android\sdk\tools\;C:\Users\Pradeep\AppData\Local\Android\sdk\platform-tools\;C:\Users\Pradeep\android-sdks\tools\;C:\Users\Pradeep\android-sdks\platform-tools\;C:\Program Files\nodejs\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Program Files (x86)\Bitvise SSH Client;R:\Pradeep\Selenium Stuff\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Users\Pradeep\AppData\Local\.meteor\;C:\Program Files (x86)\CrSSL\bin;C:\Users\Pradeep\AppData\Local\Microsoft\WindowsApps;C:\Users\Pradeep\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.4\bin;R:\Pradeep\Selenium Stuff\Ant\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Users\Pradeep\Desktop\Selenium\;C:\Users\Pradeep\AppData\Local\atom\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Pradeep\AppData\Local\Microsoft\WindowsApps;;R:\SOFTWARE\ECLIPSE;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Pradeep"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Pradeep"/>
+    <property name="java.class.path" value="/R:/SOFTWARE/ECLIPSE/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="R:\SOFTWARE\JAVA\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_74"/>
+    <property name="java.ext.dirs" value="R:\SOFTWARE\JAVA\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="R:\SOFTWARE\JAVA\jre\lib\resources.jar;R:\SOFTWARE\JAVA\jre\lib\rt.jar;R:\SOFTWARE\JAVA\jre\lib\sunrsasign.jar;R:\SOFTWARE\JAVA\jre\lib\jsse.jar;R:\SOFTWARE\JAVA\jre\lib\jce.jar;R:\SOFTWARE\JAVA\jre\lib\charsets.jar;R:\SOFTWARE\JAVA\jre\lib\jfr.jar;R:\SOFTWARE\JAVA\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="R:\LEARNING\Eclipse\Workspace_Proj\selAutoGitFreeRepo\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="forgotPasswordFunc" classname="com.framework.Package.tests.SmokeTest" time="37.998"/>
+  <testcase name="forgotPasswordWithInvalidEmail" classname="com.framework.Package.tests.SmokeTest" time="36.663"/>
+  <testcase name="navigateToLoginPageFromForgotPasswordScreen" classname="com.framework.Package.tests.SmokeTest" time="1.449"/>
+  <testcase name="loginWithEmptyUsername" classname="com.framework.Package.tests.SmokeTest" time="39.352"/>
+  <testcase name="loginFunc" classname="com.framework.Package.tests.SmokeTest" time="6.625"/>
+</testsuite>
