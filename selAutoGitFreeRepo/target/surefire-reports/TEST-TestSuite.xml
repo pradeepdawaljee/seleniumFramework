@@ -1,277 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.13" tests="5" errors="0" skipped="0" failures="5">
+<testsuite name="TestSuite" time="121.47" tests="5" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="R:\SOFTWARE\JAVA\jre\bin"/>
-    <property name="java.vm.version" value="25.74-b02"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Pradeep\git\gitSeleRepo\selAutoGitFreeRepo"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="IN"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Pradeep\git\gitSeleRepo\selAutoGitFreeRepo"/>
-    <property name="java.runtime.version" value="1.8.0_74-b02"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="R:\SOFTWARE\JAVA\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Pradeep\AppData\Local\Temp\"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="R:\LEARNING\Eclipse\Workspace_Proj\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5000172409261693136.tmp"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="R:\SOFTWARE\JAVA\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;R:\SOFTWARE\JAVA\bin;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jre1.8.0_91\bin;C:\Users\Pradeep\AppData\Local\Android\sdk\tools\;C:\Users\Pradeep\AppData\Local\Android\sdk\platform-tools\;C:\Users\Pradeep\android-sdks\tools\;C:\Users\Pradeep\android-sdks\platform-tools\;C:\Program Files\nodejs\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Program Files (x86)\Bitvise SSH Client;R:\Pradeep\Selenium Stuff\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Users\Pradeep\AppData\Local\.meteor\;C:\Program Files (x86)\CrSSL\bin;C:\Users\Pradeep\AppData\Local\Microsoft\WindowsApps;C:\Users\Pradeep\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.4\bin;R:\Pradeep\Selenium Stuff\Ant\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Users\Pradeep\Desktop\Selenium\;C:\Users\Pradeep\AppData\Local\atom\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Pradeep\AppData\Local\Microsoft\WindowsApps;;R:\SOFTWARE\ECLIPSE;;."/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\Pradeep"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="Pradeep"/>
-    <property name="java.class.path" value="/R:/SOFTWARE/ECLIPSE/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="R:\SOFTWARE\JAVA\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_74"/>
-    <property name="java.ext.dirs" value="R:\SOFTWARE\JAVA\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="R:\SOFTWARE\JAVA\jre\lib\resources.jar;R:\SOFTWARE\JAVA\jre\lib\rt.jar;R:\SOFTWARE\JAVA\jre\lib\sunrsasign.jar;R:\SOFTWARE\JAVA\jre\lib\jsse.jar;R:\SOFTWARE\JAVA\jre\lib\jce.jar;R:\SOFTWARE\JAVA\jre\lib\charsets.jar;R:\SOFTWARE\JAVA\jre\lib\jfr.jar;R:\SOFTWARE\JAVA\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\Pradeep\git\gitSeleRepo\selAutoGitFreeRepo\EMBEDDED"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JOB_NAME" value="seleniumAutomationScript"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Pradeep\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="8de35d4c6a4c655a"/>
+    <property name="POM_ARTIFACTID" value="selAutoGitFreeRepo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="RegionCode" value="APJ"/>
+    <property name="sun.boot.class.path" value="R:\SOFTWARE\JAVA\jre\lib\resources.jar;R:\SOFTWARE\JAVA\jre\lib\rt.jar;R:\SOFTWARE\JAVA\jre\lib\sunrsasign.jar;R:\SOFTWARE\JAVA\jre\lib\jsse.jar;R:\SOFTWARE\JAVA\jre\lib\jce.jar;R:\SOFTWARE\JAVA\jre\lib\charsets.jar;R:\SOFTWARE\JAVA\jre\lib\jfr.jar;R:\SOFTWARE\JAVA\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="selAutoGitFreeRepo"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\Pradeep\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_74-b02"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="ANT_HOME" value="R:\Pradeep\Selenium Stuff\Ant\apache-ant-1.10.1-bin\apache-ant-1.10.1"/>
+    <property name="user.name" value="Pradeep"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="OnlineServices" value="Online Services"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="seleniumAutomationScript"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/seleniumAutomationScript/11/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#11"/>
+    <property name="OneDrive" value="C:\Users\Pradeep\OneDrive"/>
+    <property name="sun.boot.library.path" value="R:\SOFTWARE\JAVA\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Pradeep\AppData\Local"/>
+    <property name="java.version" value="1.8.0_74"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="Pradeep"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="R:\SOFTWARE\JAVA\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\Pradeep\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MyJenkingsMaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="R:\SOFTWARE\JAVA\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="platformcode" value="6U"/>
+    <property name="=ExitCode" value="00000082"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/seleniumAutomationScript/11/display/redirect"/>
+    <property name="POM_VERSION" value="1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\Pradeep\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.74-b02"/>
+    <property name="=R:" value="R:\Pradeep\Jenkins\JenkinsMain"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/seleniumAutomationScript/display/redirect"/>
+    <property name="Platform" value="BNB"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="RAKSAN-HP32"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="R:\SOFTWARE\JAVA"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\Pradeep"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="RAKSAN-HP32"/>
+    <property name="POM_GROUPID" value="groupIDAsPackageFramework"/>
+    <property name="user.home" value="C:\Users\Pradeep"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-seleniumAutomationScript-11"/>
+    <property name="JENKINS_SERVER_COOKIE" value="8de35d4c6a4c655a"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Pradeep"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="R:\SOFTWARE\JAVA\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Pradeep\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MyJenkingsMaven/bin;C:\ProgramData\Oracle\Java\javapath;R:\SOFTWARE\JAVA\bin;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jre1.8.0_91\bin;C:\Users\Pradeep\AppData\Local\Android\sdk\tools\;C:\Users\Pradeep\AppData\Local\Android\sdk\platform-tools\;C:\Users\Pradeep\android-sdks\tools\;C:\Users\Pradeep\android-sdks\platform-tools\;C:\Program Files\nodejs\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Program Files (x86)\Bitvise SSH Client;R:\Pradeep\Selenium Stuff\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Users\Pradeep\AppData\Local\.meteor\;C:\Program Files (x86)\CrSSL\bin;C:\Users\Pradeep\AppData\Local\Microsoft\WindowsApps;C:\Users\Pradeep\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.4\bin;R:\Pradeep\Selenium Stuff\Ant\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Users\Pradeep\Desktop\Selenium\;C:\Users\Pradeep\AppData\Local\atom\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Pradeep\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Pradeep\AppData\Roaming"/>
+    <property name="JMETER_HOME" value="C:\JMeter"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\Pradeep\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MyJenkingsMaven"/>
+    <property name="java.class.path" value="C:\Users\Pradeep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\Pradeep\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MyJenkingsMaven\boot\plexus-classworlds-2.5.2.jar;C:\Users\Pradeep\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MyJenkingsMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Pradeep\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MyJenkingsMaven C:\Users\Pradeep\.jenkins\war\WEB-INF\lib\remoting-3.16.jar C:\Users\Pradeep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Pradeep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 50763"/>
+    <property name="OPENSSL_CONF" value="C:\OpenSSL-Win32\bin\openssl.cfg"/>
+    <property name="Path" value="C:\ProgramData\Oracle\Java\javapath;R:\SOFTWARE\JAVA\bin;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jre1.8.0_91\bin;C:\Users\Pradeep\AppData\Local\Android\sdk\tools\;C:\Users\Pradeep\AppData\Local\Android\sdk\platform-tools\;C:\Users\Pradeep\android-sdks\tools\;C:\Users\Pradeep\android-sdks\platform-tools\;C:\Program Files\nodejs\;C:\JMeter\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Program Files (x86)\Bitvise SSH Client;R:\Pradeep\Selenium Stuff\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Users\Pradeep\AppData\Local\.meteor\;C:\Program Files (x86)\CrSSL\bin;C:\Users\Pradeep\AppData\Local\Microsoft\WindowsApps;C:\Users\Pradeep\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.4\bin;R:\Pradeep\Selenium Stuff\Ant\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Users\Pradeep\Desktop\Selenium\;C:\Users\Pradeep\AppData\Local\atom\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Pradeep\AppData\Local\Microsoft\WindowsApps;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\Pradeep\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MyJenkingsMaven"/>
+    <property name="java.io.tmpdir" value="C:\Users\Pradeep\AppData\Local\Temp\"/>
+    <property name="Android-SDK" value="C:\Users\Pradeep\android-sdks"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Pradeep\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\Pradeep\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MyJenkingsMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="SystemRootDirectory" value="C:\Program Files\nodejs\"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="R:\SOFTWARE\JAVA\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Pradeep\git\gitSeleRepo\selAutoGitFreeRepo"/>
+    <property name="LOGONSERVER" value="\\RAKSAN-HP32"/>
+    <property name="USERDOMAIN" value="RAKSAN-HP32"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Users\Pradeep\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MyJenkingsMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="11"/>
+    <property name="ANDROID_HOME" value="C:\Users\Pradeep\AppData\Local\Android\sdk\"/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Pradeep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Pradeep\.jenkins\workspace\seleniumAutomationScript"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Pradeep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase name="forgotPasswordFunc" classname="com.framework.Package.tests.SmokeTest" time="0.06">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=63.0.3239.132)&#10;  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;RAKSAN-HP32&apos;, ip: &apos;192.168.0.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: c25af4a6feaae59d742a2027dd39e5e8&#10;*** Element info: {Using=link text, value=Forgot Password}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c25af4a6feaae59d742a2027dd39e5e8
-*** Element info: {Using=link text, value=Forgot Password}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByLinkText(RemoteWebDriver.java:414)
-	at org.openqa.selenium.By$ByLinkText.findElements(By.java:241)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
-	at com.framework.Package.driver.CommonMethods.findElements(CommonMethods.java:62)
-	at com.framework.Package.driver.CommonMethods.isElementPresent(CommonMethods.java:153)
-	at com.framework.Package.driver.CommonMethods.click(CommonMethods.java:93)
-	at com.framework.Package.pageObjects.Login.clickOnForgotPasswordLink(Login.java:47)
-	at com.framework.Package.tests.SmokeTest.forgotPasswordFunc(SmokeTest.java:73)
-</failure>
-    <system-out><![CDATA[19 Jan 15:09:33,830 INFO - Opening Chrome Browser 
-URL=https://qaapp.moolya.global
-19 Jan 15:09:37,363 INFO - Opening Url https://qaapp.moolya.global 
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 9705
-Only local connections are allowed.
-Jan 19, 2018 3:09:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="forgotPasswordWithInvalidEmail" classname="com.framework.Package.tests.SmokeTest" time="0.011">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=63.0.3239.132)&#10;  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;RAKSAN-HP32&apos;, ip: &apos;192.168.0.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: c25af4a6feaae59d742a2027dd39e5e8&#10;*** Element info: {Using=xpath, value=.//*[@placeholder=&apos;Email&apos;]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c25af4a6feaae59d742a2027dd39e5e8
-*** Element info: {Using=xpath, value=.//*[@placeholder='Email']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at com.framework.Package.driver.CommonMethods.findElement(CommonMethods.java:57)
-	at com.framework.Package.driver.CommonMethods.findElementByPlaceHolder(CommonMethods.java:119)
-	at com.framework.Package.pageObjects.ForgotPassword.passDataToUserNameField(ForgotPassword.java:21)
-	at com.framework.Package.tests.SmokeTest.forgotPasswordWithInvalidEmail(SmokeTest.java:92)
-</failure>
-  </testcase>
-  <testcase name="navigateToLoginPageFromForgotPasswordScreen" classname="com.framework.Package.tests.SmokeTest" time="0.009">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=63.0.3239.132)&#10;  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;RAKSAN-HP32&apos;, ip: &apos;192.168.0.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: c25af4a6feaae59d742a2027dd39e5e8&#10;*** Element info: {Using=link text, value=Login}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c25af4a6feaae59d742a2027dd39e5e8
-*** Element info: {Using=link text, value=Login}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByLinkText(RemoteWebDriver.java:414)
-	at org.openqa.selenium.By$ByLinkText.findElements(By.java:241)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
-	at com.framework.Package.driver.CommonMethods.findElements(CommonMethods.java:62)
-	at com.framework.Package.driver.CommonMethods.isElementPresent(CommonMethods.java:153)
-	at com.framework.Package.driver.CommonMethods.click(CommonMethods.java:93)
-	at com.framework.Package.pageObjects.ForgotPassword.clickLoginHyperlink(ForgotPassword.java:35)
-	at com.framework.Package.tests.SmokeTest.navigateToLoginPageFromForgotPasswordScreen(SmokeTest.java:105)
-</failure>
-  </testcase>
-  <testcase name="loginWithEmptyUsername" classname="com.framework.Package.tests.SmokeTest" time="0.01">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=63.0.3239.132)&#10;  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;RAKSAN-HP32&apos;, ip: &apos;192.168.0.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: c25af4a6feaae59d742a2027dd39e5e8&#10;*** Element info: {Using=name, value=userName}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c25af4a6feaae59d742a2027dd39e5e8
-*** Element info: {Using=name, value=userName}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByName(RemoteWebDriver.java:438)
-	at org.openqa.selenium.By$ByName.findElements(By.java:295)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
-	at com.framework.Package.driver.CommonMethods.findElements(CommonMethods.java:62)
-	at com.framework.Package.driver.CommonMethods.isElementPresent(CommonMethods.java:153)
-	at com.framework.Package.driver.CommonMethods.clear(CommonMethods.java:80)
-	at com.framework.Package.pageObjects.Login.passDataToUsernameField(Login.java:25)
-	at com.framework.Package.tests.SmokeTest.loginWithEmptyUsername(SmokeTest.java:61)
-</failure>
-  </testcase>
-  <testcase name="loginFunc" classname="com.framework.Package.tests.SmokeTest" time="0.04">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=63.0.3239.132)&#10;  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;RAKSAN-HP32&apos;, ip: &apos;192.168.0.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: c25af4a6feaae59d742a2027dd39e5e8" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c25af4a6feaae59d742a2027dd39e5e8
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:328)
-	at com.framework.Package.driver.CommonMethods.takeScreenShot(CommonMethods.java:47)
-	at com.framework.Package.driver.CommonMethods.captureScreenshot(CommonMethods.java:33)
-	at com.framework.Package.driver.CommonMethods.compareWithExpectedElement(CommonMethods.java:185)
-	at com.framework.Package.pageObjects.Login.verifyLoginPage(Login.java:55)
-	at com.framework.Package.tests.SmokeTest.loginFunc(SmokeTest.java:44)
-</failure>
-    <system-out><![CDATA[19 Jan 15:09:37,482 INFO - no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c25af4a6feaae59d742a2027dd39e5e8
-*** Element info: {Using=xpath, value=.//*[text()='Login']} 
-19 Jan 15:09:37,484 ERROR - Expected value not present in the webpageno such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c25af4a6feaae59d742a2027dd39e5e8
-*** Element info: {Using=xpath, value=.//*[text()='Login']} 
-19 Jan 15:09:37,486 ERROR - no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir9400_31918}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c25af4a6feaae59d742a2027dd39e5e8
-*** Element info: {Using=xpath, value=.//*[text()='Login']} 
-]]></system-out>
-  </testcase>
+  <testcase name="forgotPasswordFunc" classname="com.framework.Package.tests.SmokeTest" time="38.013"/>
+  <testcase name="forgotPasswordWithInvalidEmail" classname="com.framework.Package.tests.SmokeTest" time="36.693"/>
+  <testcase name="navigateToLoginPageFromForgotPasswordScreen" classname="com.framework.Package.tests.SmokeTest" time="1.569"/>
+  <testcase name="loginWithEmptyUsername" classname="com.framework.Package.tests.SmokeTest" time="39.058"/>
+  <testcase name="loginFunc" classname="com.framework.Package.tests.SmokeTest" time="6.137"/>
 </testsuite>

@@ -1,8 +1,8 @@
-com\framework\Package\core\BaseClass.class
-com\framework\Package\helper\JavaScriptHelper.class
-com\framework\Package\report\ExtentReport.class
-com\framework\Package\reader\ExcelClass.class
 com\framework\Package\helper\LoggerHelper.class
 com\framework\Package\driver\CommonMethods.class
 com\framework\Package\utilities\RandomDataUtility.class
 com\framework\Package\reader\PropertyFileReader.class
+com\framework\Package\core\BaseClass.class
+com\framework\Package\helper\JavaScriptHelper.class
+com\framework\Package\report\ExtentReport.class
+com\framework\Package\reader\ExcelClass.class
